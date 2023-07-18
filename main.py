@@ -8,6 +8,24 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
+counter = 0
+
+def increment():
+    globals()["counter"] += 1
+
+increment()
+increment()
+print(counter)
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
