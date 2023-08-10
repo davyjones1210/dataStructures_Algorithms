@@ -132,15 +132,16 @@ basic_table.insert('Aakash', '9999999999')
 basic_table.insert('Hemanth', '8888888888')
 
 # Find a value
-print(basic_table.find('Hemanth'))
-print(basic_table.find('Aakash'))
+#print(basic_table.find('Hemanth'))
+#print(basic_table.find('Aakash'))
 
 # Update a value
 basic_table.update('Aakash', '7777777777')
 
 # Check the updated value
-print(basic_table.find('Aakash'))
+#print(basic_table.find('Aakash'))
 
 # Get the list of keys
-print(basic_table.list_all())
+#print(basic_table.list_all())
+
 
