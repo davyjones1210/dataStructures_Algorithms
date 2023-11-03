@@ -1,4 +1,5 @@
 #Commit with John Leedale - 3rd Nov, 2023
+#Commit with John L - 3rd Nov, 2023
 
 wmt_stock_price_queue = []
 wmt_stock_price_queue.insert(0,131.10)
